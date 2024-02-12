@@ -26,5 +26,5 @@ mongoose.connection.on("connected", () => {
 
 
    app.listen(port, () => {
-    console.log("Server is live and listening at port :", port);
+    console.log("Server is live and listening at :", port);
   })
